@@ -32,3 +32,27 @@ An enterprise-grade financial engineering pipeline that solves the customer chur
    ```bash
    git clone [https://github.com/Har-Khachatryan/sirius-capital-quant-engine.git](https://github.com/YOUR_USERNAME/sirius-capital-quant-engine.git)
    cd sirius-capital-quant-engine
+
+   
+## 📊 Production Execution Output (v3.1)
+
+```text
+╔══════════════════════════════════════════════════════════════════╗
+║         SIRIUS CAPITAL — QUANT GRADE ENGINE  v3.1                ║
+╚══════════════════════════════════════════════════════════════════╝
+🚀  Executing Production Batch (Full Cycle Context)...
+
+══════════════════════════════════════════════════════════════════════════════════════════
+🔹  Client #9001  [Crypto Enthusiast — Aggressive (58% Churn)]
+    Profile : AGGRESSIVE      |  Churn Risk : 🟡 58.73%
+    Strategy: Dynamic Retention — AGGRESSIVE (Risk Scale: 0.59)
+      • AAPL  ██                    5.00%  →  $    2,100.00
+      • MSFT  ██                    5.00%  →  $    2,100.00
+      ...
+🔹  Client #9005  [Conservative Senior — Sudden Outflow]
+    Profile : CONSERVATIVE    |  Churn Risk : 🔴 87.97%
+    Strategy: Dynamic Retention — CONSERVATIVE (Risk Scale: 0.88)
+      • AAPL  █████                12.84%  →  $   14,128.44
+      • MSFT  █████                12.84%  →  $   14,128.44
+      • KO    █████████████████    52.00%  →  $   57,200.00  ✓ [Feasibility Repaired]
+      ...
