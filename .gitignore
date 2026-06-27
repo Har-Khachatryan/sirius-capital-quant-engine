@@ -5,3 +5,4 @@ __pycache__/
 # Model artifacts and datasets
 sirius_artifacts.pkl
 .ipynb_checkpoints/
+*.ipynb

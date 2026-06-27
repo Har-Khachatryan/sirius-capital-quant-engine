@@ -1,12 +1,12 @@
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║          SIRIUS CAPITAL — QUANT GRADE ML RISK PIPELINE v3.0                  ║
+║          SIRIUS CAPITAL — QUANT GRADE ML RISK PIPELINE v3.1                  ║
 ║          Author : Harutyun Arami Khachatryan                                 ║
 ║          Stack  : XGBoost · KMeans · Ledoit-Wolf · Dynamic Markowitz         ║
 ║          Review : Principal Quant Engineer — Full Architectural Audit         ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
-CHANGELOG v2.3 → v3.0
+CHANGELOG v2.3 → v3.1
 ─────────────────────────────────────────────────────────────────────────────
 [BUG FIX]   Module 2 — DynamicProfileResolver.fit() consumed the full
             training DataFrame including cluster_id. StandardScaler was fit on
@@ -1096,7 +1096,7 @@ BATCH: list[dict[str, Any]] = [
 if __name__ == "__main__":
     print()
     print("╔══════════════════════════════════════════════════════════════════╗")
-    print("║         SIRIUS CAPITAL — QUANT GRADE ENGINE  v3.0                ║")
+    print("║         SIRIUS CAPITAL — QUANT GRADE ENGINE  v3.1                ║")
     print("╚══════════════════════════════════════════════════════════════════╝")
     print()
 
